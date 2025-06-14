@@ -1,19 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #F5F4F0;
     font-family: Open Sans, sans-serif;
+    margin: 168px 160px 210px;
+    display: flex;
+    justify-content: center;
 }
 
 #page {
-    box-sizing: border-box;
-    margin: 88px 80px 130px;
+    width: 1120px;
+    height: 3061px;
 }
 
-#title {    
+#title {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -28,4 +32,18 @@ body {
 
 h1 {
     font-size: 36px;
+    color: #1B1B1B;
+}
+
+#image img {
+    width: 1120px;
+    height: 600px;
+    margin-bottom: 24px;
+}
+
+#image p {
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 40px;
 }
