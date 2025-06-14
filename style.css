@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -48,7 +48,7 @@ h1 {
     text-align: center;
     color: #333333;
     margin-bottom: 40px;
-    
+
 }
 
 #page hr {
@@ -74,10 +74,10 @@ h1 {
 }
 
 ol li {
-    margin-left:45px;
+    margin-left: 45px;
     font-size: 28px;
     color: #1B1B1B;
-    font-weight: bold; 
+    font-weight: bold;
     margin-top: 20px;
 }
 
@@ -91,12 +91,48 @@ ol li {
 #lugares .para {
     color: #333333;
     font-size: 16px;
-    font-weight: 400;
-    margin-left: -45px;
+
 }
 
 .bom-para {
     color: #333333;
     font-size: 16px;
-    margin-left: -45px;
+    font-weight: bold;
+}
+
+.azul {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0C51A7;
+}
+
+.roxo {
+    font-weight: bold;
+    font-size: 16px;
+    color: #591B98;
+}
+
+.laranja {
+    font-weight: bold;
+    font-size: 16px;
+    color: #E95E10;
+    margin-bottom: 40px;
+}
+
+.rosa {
+    font-weight: bold;
+    font-size: 16px;
+    color: #E5245E;
+}
+
+#final {
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 56px;
+}
+
+footer {
+    color: #333333;
+    text-align: center;
 }
