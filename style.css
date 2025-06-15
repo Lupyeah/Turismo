@@ -14,8 +14,8 @@ body {
 }
 
 #page {
-    height: 3061px;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
 }
 
 #title {
@@ -38,8 +38,8 @@ h1 {
 }
 
 #image img {
-    width: 1440px;
-    height: 660px;
+    width: 100%; 
+    height: auto; 
     margin-bottom: 24px;
 }
 
@@ -48,16 +48,13 @@ h1 {
     text-align: center;
     color: #333333;
     margin-bottom: 40px;
+    margin-left: 25px;
 
 }
 
 #page hr {
+    margin-top: 40px;
     margin-bottom: 64px;
-}
-
-#lugares img {
-    width: 1440px;
-    height: 350px;
 }
 
 #pontos h2 {
@@ -73,31 +70,45 @@ h1 {
     margin-bottom: 64px;
 }
 
-ol li {
-    margin-left: 45px;
+#lugares ol {
+    list-style-position: outside;
+}
+
+#lugares ol li::marker {
     font-size: 28px;
     color: #1B1B1B;
     font-weight: bold;
-    margin-top: 20px;
+
+}
+
+#lugares .imagem {
+    width: 100%;
+    height: auto;
 }
 
 #lugares h3 {
     font-size: 28px;
     color: #1B1B1B;
     font-weight: bold;
+    margin-top: 20px;
     margin-bottom: 4px;
 }
 
 #lugares .para {
     color: #333333;
     font-size: 16px;
-
+    margin-bottom: 30px;
 }
 
 .bom-para {
     color: #333333;
     font-size: 16px;
     font-weight: bold;
+}
+
+.tags-list {
+    list-style: none;
+    margin-bottom: 48px;
 }
 
 .azul {
@@ -116,7 +127,6 @@ ol li {
     font-weight: bold;
     font-size: 16px;
     color: #E95E10;
-    margin-bottom: 40px;
 }
 
 .rosa {
@@ -126,13 +136,53 @@ ol li {
 }
 
 #final {
-    text-align: center;
     color: #333333;
     font-size: 16px;
     margin-bottom: 56px;
+    text-align: center;
 }
 
 footer {
     color: #333333;
     text-align: center;
+}
+
+/* ============================================= */
+/* CÓDIGO PARA TELAS MENORES (RESPONSIVO)         */
+/* ============================================= */
+@media (max-width: 800px) {
+
+    body {
+        margin: 48px 24px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    #page hr {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #pontos .description {
+        margin-bottom: 40px;
+    }
+
+    #lugares ol {
+        padding-left: 20px; /* Diminui o recuo da lista no celular */
+    }
+
+    #lugares ol li {
+        margin-bottom: 32px;
+        padding-left: 10px;
+    }
 }
