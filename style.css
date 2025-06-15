@@ -2,20 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     background-color: #F5F4F0;
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 88px 80px;
     display: flex;
     justify-content: center;
+    color: #333333;
+    font-size: 16px;
 }
 
 #page {
     width: 100%;
     max-width: 1440px;
+}
+
+hr {
+    margin: 40px 0 64px;
+}
+
+h1,
+h2,
+h3 {
+    color: #1B1B1B;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 #title {
@@ -32,41 +60,19 @@ body {
     color: #E1624F;
 }
 
-h1 {
-    font-size: 36px;
-    color: #1B1B1B;
-}
-
 #image img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
     margin-bottom: 24px;
 }
 
 #image p {
-    font-size: 16px;
     text-align: center;
-    color: #333333;
     margin-bottom: 40px;
     margin-left: 25px;
-
-}
-
-#page hr {
-    margin-top: 40px;
-    margin-bottom: 64px;
-}
-
-#pontos h2 {
-    margin-top: 2px;
-    margin-bottom: 8px;
-    font-size: 32px;
-    color: #1B1B1B;
 }
 
 #pontos .description {
-    color: #333333;
-    font-size: 16px;
     margin-bottom: 64px;
 }
 
@@ -76,9 +82,8 @@ h1 {
 
 #lugares ol li::marker {
     font-size: 28px;
-    color: #1B1B1B;
     font-weight: bold;
-
+    color: #1B1B1B;
 }
 
 #lugares .imagem {
@@ -86,23 +91,11 @@ h1 {
     height: auto;
 }
 
-#lugares h3 {
-    font-size: 28px;
-    color: #1B1B1B;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 4px;
-}
-
 #lugares .para {
-    color: #333333;
-    font-size: 16px;
     margin-bottom: 30px;
 }
 
 .bom-para {
-    color: #333333;
-    font-size: 16px;
     font-weight: bold;
 }
 
@@ -111,78 +104,32 @@ h1 {
     margin-bottom: 48px;
 }
 
-.azul {
+.azul,
+.roxo,
+.laranja,
+.rosa {
     font-weight: bold;
     font-size: 16px;
+}
+
+.azul {
     color: #0C51A7;
 }
 
 .roxo {
-    font-weight: bold;
-    font-size: 16px;
     color: #591B98;
 }
 
 .laranja {
-    font-weight: bold;
-    font-size: 16px;
     color: #E95E10;
 }
 
 .rosa {
-    font-weight: bold;
-    font-size: 16px;
     color: #E5245E;
 }
 
-#final {
-    color: #333333;
-    font-size: 16px;
-    margin-bottom: 56px;
-    text-align: center;
-}
-
+#final,
 footer {
-    color: #333333;
     text-align: center;
-}
-
-/* ============================================= */
-/* CÓDIGO PARA TELAS MENORES (RESPONSIVO)         */
-/* ============================================= */
-@media (max-width: 800px) {
-
-    body {
-        margin: 48px 24px;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 26px;
-    }
-
-    h3 {
-        font-size: 22px;
-    }
-
-    #page hr {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    #pontos .description {
-        margin-bottom: 40px;
-    }
-
-    #lugares ol {
-        padding-left: 20px; /* Diminui o recuo da lista no celular */
-    }
-
-    #lugares ol li {
-        margin-bottom: 32px;
-        padding-left: 10px;
-    }
+    margin-bottom: 56px;
 }
