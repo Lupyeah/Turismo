@@ -18,6 +18,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Uma página para turismo!
 - [Para ver no site](https://lupyeah.github.io/Turismo/)
 
+## 📋 Funcionalidades
+
+- 📌 Uma página sobre lugares para turistas
+- ❗ Informações sobre os lugares
 ---
 
 Feito pela Lupy com ajuda da Rocketseat -> [Participe da nossa comunidade!](https://discord.gg/rocketseat)
